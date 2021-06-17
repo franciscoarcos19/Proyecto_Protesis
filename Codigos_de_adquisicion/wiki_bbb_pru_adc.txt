@@ -1,0 +1,2 @@
+wiki libreria captura de datos con beaglebone utilizando procesador de tiempo real
+https://github.com/pgmmpk/bbb_pru_adc
