@@ -2,7 +2,8 @@
 """
 Created on Wed Jun 30 09:36:31 2021
 
-@author: CREATIVELAB
+@author: Francisco Arcos
+Este código permite visualizar la señal y las características ya generadas
 """
 
 import numpy as np
