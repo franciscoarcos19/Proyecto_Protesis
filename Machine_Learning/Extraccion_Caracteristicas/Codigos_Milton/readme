@@ -1,0 +1,26 @@
+Directorio donde se encuentran los archivos creados por el profe Milton
+
+process_data_feat.py es para cargar los archivos generar las características
+class_data_feat.py es para realizar un proceso simple de clasificación
+
+para que corra sin problema debes tener en una misma carpeta el codigo y los datos, los datos asi como me los compartió, deben estar en una carpeta que se llame data:
+.carpeta principal
+├process_data_feat.py
+├class_data_feat.py
+└── data
+    ├── M1_flexion_codo
+    ├── M2_extension_codo
+    ├── M3_apertura_mano
+    ├── M4_cierre_mano
+    ├── M5_pronacion_mano
+    ├── M6_supinacion_mano
+    └── M7_reposo
+
+Al correr process_data_feat.py te va a generar un archivo binario data.pickle que son las características calculadas y separadas por cada clase.
+Al ejecutar class_data_feat.py va a cargar ese archivo , entrenar un clasificador  y lo evalúa.
+
+La función donde se debe incluir el llamado a su función que extrae las características es
+analizar_segmentos()
+linea 79
+yo incluí un ejemplo, linea 89. Esa funcion calcula 4 valores a partir de la FFT (algo sin sentido), pero pues toma un segmento y empieza a tomar trozos de 100 ms aplica fft y retorna la matriz. Básicamente esa es la función que te toca modificar para que calcule las que necesitas. He tratado de poner comentarios como para indicar que hace cada cosa.
+Me comentas si algo
