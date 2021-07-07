@@ -1,1 +1,17 @@
 En este directorio se encuentran los códigos realizados para extraer las características y posteriormente evaluar el algoritmo de clasificación
+
+Son dos los archivos que se deben ejecutar:
+1. extraccion_caracteristicas.py
+2. clasificacion.py
+
+El archivo extraccion_caracteristicas.py extrae las características utilizadas por William, Milton (Respuesta en frecuencia) y las mias
+El archivo clasificacion.py crea, entrena y evalua el clasificador
+
+Los siguientes archivos son funciones:
+envolvente.py ---- se utiliza para generar la envolvente de la señal
+identificar_eventos.py ---- se utiliza para identificar los eventos donde se ejecuta un movimiento
+analizar_eventos.py ---- se utiliza para analizar los eventos donde se ejecuta un movimiento
+caracteristicas.py ----- contiene las características que se van a extraer
+
+
+
